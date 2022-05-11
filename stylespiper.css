@@ -1,0 +1,27 @@
+body {
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+a:hover {
+    color: palevioletred;
+}
+table.schedule {
+    border-collapse: collapse;
+}
+
+table.schedule thead th {
+    background-color: palevioletred;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 15px;
+}
+table.schedule tbody td {
+    padding: 15px;
+    border: 0.8px solid #9b9b9b;
+}
+
+table.schedule tbody tr:nth-child(even){
+    background-color: #ededed;
+    border: 0.8px solid #9b9b9b;
+}

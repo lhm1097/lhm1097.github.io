@@ -1,0 +1,76 @@
+/*css style sheet for Caleb*/
+
+/* Make headers a different font and red */
+h1 {
+  color: darkred;
+  font-weight: bold;
+  font-size: 42px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 6px;
+  margin-top: 8px;
+}
+
+h2 {
+  color: azure;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+  color: aliceblue;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#highlight:hover {
+  font-size: 20px;
+  color:aliceblue;
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+div {
+  color: aliceblue;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+  font-size: 14px;
+}
+
+li:hover {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aquamarine;
+  font-size: 16px;
+}
+
+td, th {
+  border: 1px solid;
+  border-color: rgb(199, 210, 219);
+  color:aquamarine;
+}
+
+.center {
+  text-align: center;
+  color: green;
+  font-family: "Impact", "Lucida Console", monospace;
+  font-size: 16px;
+}
+
+#caption {
+  font-size: 12px;
+  font-family: "Sans", "Courier New", monospace;
+  color:darkgray;
+}
+
+/* used opacity instead of visibility, because I found you cannot hover over hidden elements*/
+img {
+  opacity: 0;
+  height: max-content;
+  width: max-content;
+}
+
+img:hover {
+  opacity: 1;
+}
