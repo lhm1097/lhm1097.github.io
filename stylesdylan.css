@@ -49,7 +49,7 @@ body {
 .row {
   padding:2rem 1rem;
 margin-bottom:2rem;
-background-color:rgb(53, 63, 211); 
+/*background-color:rgb(108, 118, 255); */ /* adds color */
 border-radius:.3rem
 }
 .col-sm-6 {
