@@ -6,7 +6,6 @@
         <link rel="stylesheet" href="stylesdylan.css"> <!--Mark's comment: You have a bunch of classes defined in that stylesheet but then don't use any of them in this page. Why? This suggests to me that you don't actually know what you're doing. Please also include styles in a style block in the head tag.-->
     </head>
     <body class="main">
-
         <!--Navigation bar to start-->
         <div class="nav">
             <a class="active" href="index.html">Home Page</a>
@@ -15,15 +14,22 @@
             <a href="PiperPage.html">Piper's Page</a>
             <a href="HuiminPage.html">Huimin's Page</a>
         </div>
-
+<!-- Bootstrap-->
         <h1><span style="color:rgb(13, 37, 176)">Dylan's HTML Page</span></h1>
     <br>
-    <p> <strong>How to craft a diamond sword with 3 simple steps</strong></p>
-    <ol>
-        <li>Get 2 <em>diamonds</em></li>
-        <li>Craft a <em>stick</em></li>
-        <li>Put them in the configuration below on a <em>crafting table</em></li>
-    </ol>
+    <div class="container mt-3">
+        <div class="row">
+          <div class="col-sm-2">
+            <p> <strong>How to craft a diamond sword with 3 simple steps</strong></p>
+            <ol>
+                <li>Get 2 <em>diamonds</em></li>
+                <li>Craft a <em>stick</em></li>
+                <li>Put them in the configuration below on a <em>crafting table</em></li>
+            </ol>
+            </div>
+        </div>
+    </div>  
+<!-- Bootstrap-->
     <div class="container mt-5">
         <div class="row">
           <div class="col-sm-4">
@@ -49,9 +55,17 @@
             </div>
         </div>
     </div>  
+<!-- Bootstrap-->
+    <div class="container mt-7">
+        <div class="row">
+          <div class="col-sm-6">
         <br>
         <p> Picture of Carby: </p>
     <img src="https://pbs.twimg.com/media/FLMBAO-XsBEOVDx?format=jpg&name=900x900" alt="Carby" width="450" height="253">
     <p> Still can't believed that Kirby can eat an entire car </p>
+            </div>
+        </div>
+    </div>
+
     </body>
 </html>
