@@ -18,14 +18,8 @@ a:hover {
     height: 80px
 }
 .outterDiv {
+    display: grid;
     background-color: #8e9df1;
-}
-#myTable {
-    border: 5px solid white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2em;
-    color: green;
-    font-weight: bold;
 }
 /*  copied from https://www.w3schools.com/css/css_align.asp */
 img {
