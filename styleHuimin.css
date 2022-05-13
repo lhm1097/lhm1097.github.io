@@ -27,3 +27,18 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+.statsContainera {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imgFlex {
+    display: flex;
+    flex: 1;
+}
+
+.tableFlex {
+    display: flex;
+    flex: 1;
+}
