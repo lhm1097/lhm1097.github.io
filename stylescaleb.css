@@ -29,6 +29,14 @@
   margin-left: 15px;
 }
 
+/*unique flexbox style*/
+.d-flex {
+  margin: 10px;
+  background: rgba(235, 128, 178, 0.8);
+  border-radius: 10px;
+  padding: 12px;
+}
+
 /* Make headers a different font and red */
 h1 {
   color: darkred;

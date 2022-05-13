@@ -23,12 +23,15 @@
 
     </head>
     <body>
-
+        <!--lets try making a nav bar to replace the old one-->
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">Cable's Corner!</span>
+        </nav>
         <!--I stole this piece from the sample HTML site lol, looks like it can link other pages-->
-        <a href="index.html">Home Page</a> | <a href="DylanPage.html">Dylan's Page</a> | <a href="Cable_test.html">Caleb's Page</a> | <a href="PiperPage.html">Piper's Page</a> | <a href="HuiminPage.html">Huimin's Page</a>
-        <!--everyone should copy this code to the top of their body section to format nav bars-->
+        <!--<a href="index.html">Home Page</a> | <a href="DylanPage.html">Dylan's Page</a> | <a href="Cable_test.html">Caleb's Page</a> | <a href="PiperPage.html">Piper's Page</a> | <a href="HuiminPage.html">Huimin's Page</a>-->
+        <!--commented the line above out (old nav bar with html)-->
+        <!--<h1>Caleb's HTML Page</h1> replacing with navbar-->
 
-        <h1>Caleb's HTML Page</h1> <!--using this section to talk about myself gives it a topic to revolve around-->
         <div id="caption">Now featuring CSS!</div>
         <div class="row"> <!--First bootstrap row (2 columns)-->
             <div class="col">
@@ -51,7 +54,10 @@
                 </ul>
             </div>
         </div>
-            <hr> <!--start a new section-->
+        <div class="row">
+            <div class="d-flex">Y'all I found some cool text to write!</div>
+            <div class="d-flex ml-auto"> and some more weird text on the other side!</div>
+        </div>    
         <div class="row">
             <div class="col"> <!--full page stretch row (1 col)-->
                 <h2>What am I doing here?</h2>
@@ -62,6 +68,7 @@
                 </ol>
             </div>
         </div>
+        <div class="d-flex flex-row-reverse">I'm a flexbox container!</div>
         <div class="row"> <!--practice non uniform col sizes-->
             <div class="col-lg-7"> <!--takes 7 of 12 cols-->
             <!--couldn't think of what to use a table for lol-->
