@@ -4,32 +4,64 @@
     <head>
         <!--The <head> element is a container for metadata and is placed between the <html> tag and the <body> tag-->
             <title>A SAMPLE HTML PAGE OF PIPER</title>
+
             <!--The <style> element is used to define style information for a single HTML page-->
             <link rel="stylesheet" href="stylespiper.css">
-            <style type="text/css">
-                h1 {color: palevioletred; text-align: center;}
 
+            <!--Link Bootstrap to the page-->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+            <!-- Define styles for the page in the document (embeded stylesheet)-->
+            <style type="text/css">
                 .firstBox {
                     border: 1px outset black;
                     background-color: FloralWhite;
                     text-align: center;
                 }
-
             </style>
     </head>
+
     <body>
         <!--Navigation bar to start-->
-        <a href="index.html">Home Page</a> | <a href="DylanPage.html">Dylan's Page</a> | <a href="Cable_test.html">Caleb's Page</a> | <a href="PiperPage.html">Piper's Page</a> | <a href="HuiminPage.html">Huimin's Page</a>
-        <h1>PIPER's PAGE</h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <div class="nav">
+            <a href="index.html">Home Page</a>
+            <a href="DylanPage.html">Dylan's Page</a>
+            <a href="Cable_test.html">Caleb's Page</a>
+            <a class="active" href="PiperPage.html">Piper's Page</a>
+            <a href="HuiminPage.html">Huimin's Page</a>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="intro">
+                        <h1>Hello,</h1>
+                        <h1>I'm </h1>
+                        <h1 style="color:palevioletred"> Piper </h1>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="intro-image">
+                        <img src="https://drive.google.com/uc?export=view&id=1xYFvl05fjO8DG0JIdRXU9n57L0TiQI40" alt="Piper's picture" style="margin-right:15px" title="The picture of my portrait drawing" width="400" height="467">
+                    </div>
+                </div>
+        </div>
+        <div class="container">
             <h2>I. About Me: </h2>
             <!--A <div> section in a document that is styled with CSS:-->
-            <div class="firstBox">
-                <p> My name is Piper.</p>
-                <p> I am a senior Applied Computing student at UW Bothell.</p>
-                <p> My goal is becoming an UX designer or UX researcher with Computer Science background.</p>
-                <p> I love connecting other people in the UX design industry and using my ability to contribute our society. </p>
-                <p> My personal page: <a href="http://www.IamPhan.com"> IamPhan.com</a> </p>
-            </div>
+                <div class="row">
+                    <div class="firstBox">
+                        <div class="col-6">
+                            <p> My name is Piper.</p>
+                            <p> I am a senior Applied Computing student at UW Bothell.</p>
+                            <p> My goal is becoming an UX designer or UX researcher with Computer Science background.</p>
+                            <p> I love connecting other people in the UX design industry and using my ability to contribute our society. </p>
+                            <p> My personal page: <a href="http://www.IamPhan.com"> IamPhan.com</a> </p>
+                        </div>
+                    </div>
+                </div>
+        </div>
             <h2>II. My Programming Skill:</h2>
                 <!--The <ul> is for unordered list with bullets-->
                 <ul>
