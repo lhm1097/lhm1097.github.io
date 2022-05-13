@@ -64,12 +64,14 @@ body {
 
 .coding {
     font-size: 32px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 450px;
+    padding-right: 450px;
 }
 
 table.schedule {
     border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 table.schedule thead th {
@@ -86,4 +88,9 @@ table.schedule tbody td {
 table.schedule tbody tr:nth-child(even){
     background-color: #ededed;
     border: 0.8px solid #9b9b9b;
+}
+
+.buddy-style {
+    font-size: 24px;
+    margin-left: 46px;
 }
