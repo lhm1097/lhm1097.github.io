@@ -16,7 +16,7 @@ a:hover {
     float: left;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 8px 16px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -27,8 +27,8 @@ a:hover {
 }
 
 .nav a.active {
-    background-color: palevioletred;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: palevioletred;
 }
 
 table.schedule {
