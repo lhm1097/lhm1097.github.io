@@ -4,8 +4,11 @@
     <head>
         <!--The <head> element is a container for metadata and is placed between the <html> tag and the <body> tag-->
             <title>A SAMPLE HTML PAGE OF PIPER</title>
+
             <!--The <style> element is used to define style information for a single HTML page-->
             <link rel="stylesheet" href="stylespiper.css">
+
+            <!-- Define styles for the page in the document (embeded stylesheet)-->
             <style type="text/css">
                 h1 {color: palevioletred; text-align: center;}
 
@@ -14,12 +17,18 @@
                     background-color: FloralWhite;
                     text-align: center;
                 }
-
             </style>
     </head>
+
     <body>
         <!--Navigation bar to start-->
-        <a href="index.html">Home Page</a> | <a href="DylanPage.html">Dylan's Page</a> | <a href="Cable_test.html">Caleb's Page</a> | <a href="PiperPage.html">Piper's Page</a> | <a href="HuiminPage.html">Huimin's Page</a>
+        <div class="nav">
+            <a href="index.html">Home Page</a>
+            <a href="DylanPage.html">Dylan's Page</a>
+            <a href="Cable_test.html">Caleb's Page</a>
+            <a class="active" href="PiperPage.html">Piper's Page</a>
+            <a href="HuiminPage.html">Huimin's Page</a>
+
         <h1>PIPER's PAGE</h1>
             <h2>I. About Me: </h2>
             <!--A <div> section in a document that is styled with CSS:-->

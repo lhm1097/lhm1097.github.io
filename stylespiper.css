@@ -6,6 +6,31 @@ body {
 a:hover {
     color: palevioletred;
 }
+
+.nav {
+    overflow: hidden;
+    background-color: #9b9b9b;
+}
+
+.nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.nav a:hover {
+    background-color: palevioletred;
+    color: #ffffff;
+}
+
+.nav a.active {
+    background-color: palevioletred;
+    color: #ffffff;
+}
+
 table.schedule {
     border-collapse: collapse;
 }
