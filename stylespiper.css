@@ -9,7 +9,7 @@ a:hover {
 
 .nav {
     overflow: hidden;
-    background-color: #9b9b9b;
+    background-color: #ffffff;
 }
 
 .nav a {
@@ -22,8 +22,8 @@ a:hover {
 }
 
 .nav a:hover {
-    background-color: palevioletred;
-    color: #ffffff;
+    background-color: rgb(255, 255, 255);
+    color: #9b9b9b;
 }
 
 .nav a.active {
